@@ -1,8 +1,136 @@
-<HTML>
-  <head>
-    <title>my site</title>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analyst Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #0f172a;
+            color: #e2e8f0;
+        }
+
+        header {
+            background: #020617;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #38bdf8;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #e2e8f0;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #38bdf8;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020617;
+            margin-top: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #38bdf8;
+            color: #020617;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+    </style>
+</head>
 <body>
-  <h1>hi its my site</h1>
+
+<header>
+    <h1>Your Name</h1>
+    <p>Data Analyst | Turning Data into Insights</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a data analyst passionate about transforming raw data into meaningful insights.
+        I specialize in data visualization, statistical analysis, and business intelligence.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+        <ul>
+            <li>Python (Pandas, NumPy)</li>
+            <li>SQL & Databases</li>
+            <li>Power BI / Tableau</li>
+            <li>Excel & Data Cleaning</li>
+            <li>Machine Learning Basics</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Sales Dashboard</h3>
+        <p>Interactive dashboard analyzing company sales trends and KPIs.</p>
+        <a href="#" class="btn">View Project</a>
+    </div>
+
+    <div class="card">
+        <h3>Customer Segmentation</h3>
+        <p>Used clustering techniques to identify key customer groups.</p>
+        <a href="#" class="btn">View Project</a>
+    </div>
+
+    <div class="card">
+        <h3>Data Cleaning Pipeline</h3>
+        <p>Automated data preprocessing workflow using Python.</p>
+        <a href="#" class="btn">View Project</a>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your.email@example.com</p>
+    <p>LinkedIn: linkedin.com/in/yourname</p>
+    <a href="#" class="btn">Download CV</a>
+</section>
+
+<footer>
+    <p>© 2026 Your Name | Data Analyst Portfolio</p>
+</footer>
+
 </body>
-</HTML>
+</html>
