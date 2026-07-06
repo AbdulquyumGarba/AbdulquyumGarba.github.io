@@ -39,12 +39,19 @@
             color: #38bdf8;
         }
 
-        .card {
-            background: #1e293b;
-            padding: 20px;
-            margin: 15px 0;
-            border-radius: 10px;
-        }
+        .card{
+    background:#1e293b;
+    padding:20px;
+    margin:15px 0;
+    border-radius:10px;
+
+    transition:0.3s;
+}
+
+        .card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.3);
+}
 
         footer {
             text-align: center;
@@ -62,6 +69,13 @@
             text-decoration: none;
             margin-top: 10px;
         }
+        .btn:hover{
+
+background:white;
+
+color:#0f172a;
+
+}
     </style>
 </head>
 <body>
@@ -101,10 +115,25 @@
     <h2>Projects</h2>
 
     <div class="card">
-        <h3>Sales Dashboard</h3>
-        <p>Interactive dashboard analyzing company sales trends and KPIs.</p>
-        <a href="#" class="btn">View Project</a>
-    </div>
+
+    <img src="images/sales-dashboard.png"
+         alt="Sales Dashboard"
+         width="100%">
+
+    <h3>Sales Dashboard</h3>
+
+    <p>
+        Interactive dashboard analysing company sales trends and KPIs.
+    </p>
+
+    <a href="documents/Abdulquyum_Garba_CV.pdf"
+download
+class="btn">
+
+        View Project
+    </a>
+
+</div>
 
     <div class="card">
         <h3>Customer Segmentation</h3>
